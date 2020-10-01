@@ -12,6 +12,9 @@ if (isset($_POST['log_button'])) {
 
   if ($check_login_query == 1) {
     $row = mysqli_fetch_array($check_db_query);
+    $fname = $row['fname'];
+
+    $_SESSION['fname'] = $fname;
     header("Location: index.php");
     exit();
   }

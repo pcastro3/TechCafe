@@ -49,7 +49,7 @@ require 'includes/form_handlers/login_handler.php';
               echo 'Email or password was incorrect<br>';
             } ?>
             <input type="submit" name="log_button" value="Log In">
-            
+
             <a href="#" id="signup" class="signup">Need an account? Sign up here!</a>
 
           </form>
