@@ -27,7 +27,15 @@ if (isset($_SESSION['fname'])) {
 </head>
 <body>
   <nav class="header">
+    <span><?php
+      if (isset($_SESSION['fname'])) {
+        $userLoggedIn = $_SESSION['fname'];
+        echo "Hello, " . $userLoggedIn;
+      }?>
+    </span>
+
     <a href="includes/handlers/logout.php">
       <i class="fa fa-sign-out" aria-hidden="true" href=''></i>
     </a>
+
   </nav>
