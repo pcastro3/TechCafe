@@ -26,16 +26,21 @@ if (isset($_SESSION['fname'])) {
   <title>Tech Café</title>
 </head>
 <body>
-  <nav class="header">
-    <span><?php
-      if (isset($_SESSION['fname'])) {
-        $userLoggedIn = $_SESSION['fname'];
-        echo "Hello, " . $userLoggedIn;
-      }?>
-    </span>
+  <div class="wrapper">
+    <nav class="header">
+      <a href="#" class="logo flex">
+        <span class="lpic"></span>
+      </a>
+      <span class="message flex"><?php
+        if (isset($_SESSION['fname'])) {
+          $userLoggedIn = $_SESSION['fname'];
+          echo "Hello, " . $userLoggedIn;
+        }?>
+      </span>
 
-    <a href="includes/handlers/logout.php">
-      <i class="fa fa-sign-out" aria-hidden="true" href=''></i>
-    </a>
+      <a href="includes/handlers/logout.php" class="flex">
+        <i class="fa fa-sign-out" aria-hidden="true" href=''></i>
+      </a>
 
-  </nav>
+    </nav>
+  </div>
