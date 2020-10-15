@@ -28,7 +28,7 @@ if (isset($_SESSION['fname'])) {
 <body>
   <div class="wrapper">
     <nav class="header">
-      <a href="#" class="logo flex">
+      <a href="#" class="flex">
         <span class="lpic"></span>
       </a>
       <span class="message flex"><?php

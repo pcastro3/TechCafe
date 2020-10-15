@@ -5,6 +5,8 @@ body {
   height: 100%;
 }
 
+/* HEADER */
+
 .message {
   font-size: 1.3rem;
   margin-right: 40rem;
@@ -30,3 +32,38 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+/* HEADER  */
+
+/* MENU */
+
+.menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.hot {
+  height: 50%;
+  background-color: blue;
+}
+
+.choccy {
+  background-image: url(../images/chocolate.jpg);
+  background-size: cover;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 4rem;
+}
+
+.cold {
+  height: 50%;
+  background-color: red;
+}
+
+.beans {
+  height: 50%;
+  background-color: yellow;
+}
+
+/* MENU */
