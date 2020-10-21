@@ -9,7 +9,7 @@ body {
 
 .message {
   font-size: 1.3rem;
-  margin-right: 40rem;
+  margin-right: -2rem;
 }
 
 .header {
@@ -27,139 +27,66 @@ body {
   border-radius: 4rem;
 }
 
+@font-face {
+  font-family: 'Bellota-LightItalic';
+  src: url(../fonts/bellota/Bellota-LightItalic.otf);
+}
+
+@font-face {
+  font-family: 'Bellota-BoldItalic';
+  src: url(../fonts/bellota/Bellota-BoldItalic.otf);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-family: 'Bellota-BoldItalic', sans-serif;
+  color: #957847;
+  margin-bottom: 0rem;
+  margin-right: 30rem;
+}
+
 .flex {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+.landing {
+  width: 100%;
+  height: auto;
+}
+
+.fade-in {
+animation: fadeIn ease 4s;
+-webkit-animation: fadeIn ease 4s;
+-moz-animation: fadeIn ease 4s;
+-o-animation: fadeIn ease 4s;
+-ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
 /* HEADER  */
-
-/* MENU */
-
-.menu {
-  width: 100vw;
-  height: 100vh;
-}
-
-.headline {
-  padding: 2rem;
-  margin-top: 1rem;
-  font-size: 2rem;
-  border-bottom: 1px solid grey;
-}
-
-.products {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 5rem;
-}
-
-.details {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.details p {
-  margin-top: 2rem;
-}
-
-/* HOT DRINKS */
-
-.hot {
-  display: flex;
-  flex-direction: column;
-  height: 85%;
-}
-
-.choccy {
-  background-image: url(../images/chocolate.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-.hcoffee {
-  background-image: url(../images/hotcoffee.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-.htea {
-  background-image: url(../images/hottea.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-/* COLD DRINKS */
-
-.cold {
-  display: flex;
-  flex-direction: column;
-  height: 85%;
-}
-
-.ichoccy {
-  background-image: url(../images/icedchoccy.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-.icoffee {
-  background-image: url(../images/icedcoffee.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-.itea {
-  background-image: url(../images/icedtea.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-/* COFFEE BEANS */
-
-.beans {
-  display: flex;
-  flex-direction: column;
-  height: 85%;
-}
-
-.light {
-  background-image: url(../images/lightroast.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-.medium {
-  background-image: url(../images/mediumroast.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-.dark {
-  background-image: url(../images/darkroast.jpg);
-  background-size: cover;
-  width: 11rem;
-  height: 11rem;
-  border-radius: 7rem;
-}
-
-/* MENU */

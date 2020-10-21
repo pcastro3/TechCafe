@@ -23,6 +23,7 @@ if (isset($_SESSION['fname'])) {
   <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0//css/font-awesome.css">
   <link rel="stylesheet" href="./assets/css/index.css">
   <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
   <title>Tech Café</title>
 </head>
 <body>
@@ -31,6 +32,7 @@ if (isset($_SESSION['fname'])) {
       <a href="#" class="flex">
         <span class="lpic"></span>
       </a>
+      <h1 class="flex title">Tech Café</h1>
       <span class="message flex"><?php
         if (isset($_SESSION['fname'])) {
           $userLoggedIn = $_SESSION['fname'];
@@ -43,4 +45,7 @@ if (isset($_SESSION['fname'])) {
       </a>
 
     </nav>
+  </div>
+  <div>
+    <img src="./assets/images/landing.jpg" class="landing fade-in" alt="">
   </div>

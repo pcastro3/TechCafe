@@ -1,0 +1,146 @@
+/* MENU */
+
+.menu {
+  width: 100vw;
+  height: 100%;
+}
+
+.headline {
+  padding: 2rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  border-bottom: 1px solid grey;
+}
+
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.details p {
+  margin-top: 2rem;
+}
+
+/* HOT DRINKS */
+
+.hot {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+}
+
+.choccy {
+  background-image: url(../images/chocolate.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+.hcoffee {
+  background-image: url(../images/hotcoffee.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+.htea {
+  background-image: url(../images/hottea.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+/* COLD DRINKS */
+
+.cold {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+}
+
+.ichoccy {
+  background-image: url(../images/icedchoccy.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+.icoffee {
+  background-image: url(../images/icedcoffee.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+.itea {
+  background-image: url(../images/icedtea.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+/* COFFEE BEANS */
+
+.beans {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+}
+
+.light {
+  background-image: url(../images/lightroast.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+.medium {
+  background-image: url(../images/mediumroast.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+.dark {
+  background-image: url(../images/darkroast.jpg);
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 7rem;
+}
+
+/* MENU */
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  background-color: #F7F7F7;
+}
+
+.footerContent {
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding: 2rem;
+  letter-spacing: .2rem;
+}
