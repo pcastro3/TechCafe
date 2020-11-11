@@ -14,6 +14,17 @@
         </a>
         <p>Hot Chocolate</p>
         <p>$2.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
       <div class="details">
@@ -22,6 +33,17 @@
         </a>
         <p>Vanilla Latté</p>
         <p>$4.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
       <div class="details">
@@ -30,6 +52,17 @@
         </a>
         <p>Hot Peach Tea</p>
         <p>$3.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
     </div>
@@ -50,6 +83,17 @@
         </a>
         <p>Iced Chocolate</p>
         <p>$2.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
       <div class="details">
@@ -58,6 +102,17 @@
         </a>
         <p>Iced Vanilla Latté</p>
         <p>$4.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
       <div class="details">
@@ -66,6 +121,17 @@
         </a>
         <p>Iced Lemon Tea</p>
         <p>$3.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
     </div>
@@ -86,6 +152,17 @@
         </a>
         <p>Light Roast</p>
         <p>$10.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
       <div class="details">
@@ -94,6 +171,17 @@
         </a>
         <p>Medium Ethiopian</p>
         <p>$10.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
       <div class="details">
@@ -102,6 +190,17 @@
         </a>
         <p>Dark Ethiopian</p>
         <p>$10.95</p>
+        <div <?php if (mysqli_num_rows($result2) > 0) {
+
+          if ($row2 = mysqli_fetch_array($result2)) {
+            ?>
+            <form method="post" action="index.php?actions=add&id=<?php echo $row2['id']; ?>">
+              <input type="submit" name="add_to_cart" value="Add To Cart">
+            </form>
+            <?php
+          }
+
+        } ?></div>
       </div>
 
     </div>
